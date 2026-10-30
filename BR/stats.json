@@ -1,0 +1,57 @@
+{
+ "region": "BR",
+ "signs": 23396,
+ "failures": 1,
+ "failed": {
+  "BOBO(-)": "nenhuma ação com os ossos das mãos"
+ },
+ "bytes": 738738860,
+ "manifestBytes": 5483701,
+ "clipBytes": {
+  "mean": 31575.434,
+  "p50": 30632,
+  "p95": 46868,
+  "max": 131696
+ },
+ "durationSeconds": {
+  "mean": 3.126,
+  "p50": 2.867,
+  "p95": 5.233,
+  "max": 48.8
+ },
+ "fingertipErrorCmMax": {
+  "mean": 0.461,
+  "p50": 0.436,
+  "p95": 0.723,
+  "max": 3.45
+ },
+ "fingertipErrorCmMean": {
+  "mean": 0.096,
+  "p50": 0.087,
+  "p95": 0.174,
+  "max": 0.692
+ },
+ "compressionDegMax": {
+  "mean": 0.854,
+  "p50": 0.854,
+  "p95": 1.116,
+  "max": 1.599
+ },
+ "withContacts": 21895,
+ "withFace": 12920,
+ "faceChannels": {
+  "pucker": 5490,
+  "lipPress": 5335,
+  "frown": 4952,
+  "browFrown": 3480,
+  "browLower": 3091,
+  "jawOpen": 2788,
+  "browRaise": 2363,
+  "upperLip": 2221,
+  "cheekPuff": 1464,
+  "browOuterUp": 1178,
+  "browAngry": 1175,
+  "cheekSuck": 1086,
+  "smile": 904
+ }
+}
