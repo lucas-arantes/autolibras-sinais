@@ -1,0 +1,5 @@
+# Saída da conversão (retomável) e o site pronto para publicar
+build/
+dist/
+*.blend
+__pycache__/
