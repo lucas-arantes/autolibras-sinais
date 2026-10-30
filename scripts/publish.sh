@@ -5,7 +5,7 @@
 #
 # Sem --push, só cria o commit local em gh-pages e mostra o comando para enviar. O branch
 # tem um commit só (sem histórico), para o repositório não acumular cópias antigas dos
-# ~700 MB de clipes; por isso o envio usa --force.
+# ~740 MB de clipes; por isso o envio usa --force.
 #
 # O GitHub Pages serve os arquivos com "Access-Control-Allow-Origin: *", então o app
 # pode carregar o pacote de qualquer domínio. Limites: site de até 1 GB. Outro servidor

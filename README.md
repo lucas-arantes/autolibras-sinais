@@ -48,7 +48,7 @@ Você precisa de:
 - um checkout do [autolibras-tradutor](https://github.com/lucas-arantes/autolibras-tradutor), que tem o conversor (`packages/avatar-three/tools/clips`). Por padrão o script procura em `../autolibras-tradutor`; outro caminho vai em `AUTOLIBRAS_TRADUTOR`;
 - o Blender 4.5 ou mais recente no `PATH`, ou indicado em `BLENDER`;
 - o Python 3;
-- uns 60 GB livres para o cache dos `.blend`, em `~/.cache/autolibras/vlibras-sources`.
+- uns 40 GB livres para o cache dos `.blend`, em `~/.cache/autolibras/vlibras-sources`.
 
 ```bash
 scripts/build.sh                 # região BR, branch main do dicionário
@@ -68,7 +68,7 @@ scripts/publish.sh --push   # pede confirmação e envia com --force
 
 O branch `gh-pages` tem um único commit, sem histórico, para que o repositório não guarde cópias antigas dos clipes. No GitHub, ative o Pages em Settings → Pages → Deploy from a branch → `gh-pages`, pasta `/`.
 
-O GitHub Pages responde com `Access-Control-Allow-Origin: *`, então o app consegue carregar o pacote de qualquer domínio. O limite do Pages é de 1 GB por site, e o pacote da região BR ocupa uns 700 MB. Qualquer servidor estático que libere CORS também serve (`rsync -a dist/ destino/`). No Cloudflare Pages não dá, porque o plano gratuito aceita no máximo 20 mil arquivos por site.
+O GitHub Pages responde com `Access-Control-Allow-Origin: *`, então o app consegue carregar o pacote de qualquer domínio. O limite do Pages é de 1 GB por site, e o pacote da região BR ocupa uns 740 MB. Qualquer servidor estático que libere CORS também serve (`rsync -a dist/ destino/`). No Cloudflare Pages não dá, porque o plano gratuito aceita no máximo 20 mil arquivos por site.
 
 ## Licença e código-fonte correspondente
 

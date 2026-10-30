@@ -6,7 +6,7 @@
 # O conversor (MIT) fica no repositório do AutoLibras Tradutor. Aponte para um checkout
 # dele com AUTOLIBRAS_TRADUTOR (padrão: ../autolibras-tradutor). Precisa do Blender 4.5+
 # no PATH (ou em BLENDER=...) e do Python 3. A conversão retoma de onde parou: rodar de
-# novo só converte o que falta. O dicionário inteiro baixa ~60 GB de .blend para o cache
+# novo só converte o que falta. O dicionário inteiro baixa ~40 GB de .blend para o cache
 # (~/.cache/autolibras/vlibras-sources) e leva algumas horas, quase tudo de download.
 set -euo pipefail
 
